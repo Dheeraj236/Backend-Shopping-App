@@ -3,7 +3,6 @@ const app = express();
 const connectDB = require('./config/db');
 const path = require('path');
 
-
 connectDB();
 app.use(express.json())
 
